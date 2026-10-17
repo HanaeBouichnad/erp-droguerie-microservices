@@ -1,0 +1,24 @@
+# Compilation Maven
+target/
+*.class
+*.jar
+!**/src/main/**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement et secrets
+.env
