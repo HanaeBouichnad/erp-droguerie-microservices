@@ -22,6 +22,7 @@
 
     <!-- Chaque microservice sera ajouté ici au fur et à mesure -->
     <modules>
+        <module>service-decouverte</module>
     </modules>
 
     <properties>

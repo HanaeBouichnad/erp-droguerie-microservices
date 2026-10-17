@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: service-decouverte
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # Le serveur Eureka ne s'enregistre pas auprès de lui-même
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    # Désactivé en développement : un service arrêté disparaît vite de la console
+    enable-self-preservation: false
