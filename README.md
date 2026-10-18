@@ -112,7 +112,7 @@ Caissière ──► service-caisse
 ## 5. Démonstration
 
 ### Les 4 services enregistrés dans Eureka
-![Eureka](documentation/captures/eureka-tous-services.png)
+![Eureka](documentation/captures/eureka-services.png)
 
 ### Scénario complet testé avec Swagger
 
