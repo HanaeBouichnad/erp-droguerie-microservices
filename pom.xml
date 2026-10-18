@@ -25,6 +25,7 @@
         <module>service-produits</module>
         <module>service-clients</module>
         <module>service-ventes</module>
+        <module>service-caisse</module>
     </modules>
 
     <properties>
