@@ -18,12 +18,12 @@
     <packaging>pom</packaging>
 
     <name>ERP Droguerie</name>
-    <description>ERP microservices pour un magasin de droguerie : ventes, stock, caisse et crédit clients</description>
+    <description>ERP microservices pour un magasin de droguerie : stock, ventes, caisse et crédit clients</description>
 
-    <!-- Chaque microservice sera ajouté ici au fur et à mesure -->
     <modules>
         <module>service-decouverte</module>
         <module>service-produits</module>
+        <module>service-clients</module>
     </modules>
 
     <properties>
