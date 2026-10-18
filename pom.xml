@@ -23,6 +23,7 @@
     <!-- Chaque microservice sera ajouté ici au fur et à mesure -->
     <modules>
         <module>service-decouverte</module>
+        <module>service-produits</module>
     </modules>
 
     <properties>

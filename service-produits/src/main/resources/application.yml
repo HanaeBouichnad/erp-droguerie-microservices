@@ -1,0 +1,35 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: service-produits
+  # Développement : base H2 en mémoire (remplacée par PostgreSQL avec Docker plus tard)
+  datasource:
+    url: jdbc:h2:mem:produitsdb
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  h2:
+    console:
+      enabled: true   # http://localhost:8081/h2-console (JDBC URL : jdbc:h2:mem:produitsdb)
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
